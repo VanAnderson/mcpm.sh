@@ -17,6 +17,7 @@ from mcpm.clients.managers.continue_extension import ContinueManager
 from mcpm.clients.managers.cursor import CursorManager
 from mcpm.clients.managers.fiveire import FiveireManager
 from mcpm.clients.managers.goose import GooseClientManager
+from mcpm.clients.managers.kilocode import KiloCodeManager
 from mcpm.clients.managers.trae import TraeManager
 from mcpm.clients.managers.vscode import VSCodeManager
 from mcpm.clients.managers.windsurf import WindsurfManager
@@ -43,6 +44,7 @@ class ClientRegistry:
         "continue": ContinueManager(),
         "goose-cli": GooseClientManager(),
         "5ire": FiveireManager(),
+        "kilo-code": KiloCodeManager(),
         "roo-code": RooCodeManager(),
         "trae": TraeManager(),
         "vscode": VSCodeManager(),
